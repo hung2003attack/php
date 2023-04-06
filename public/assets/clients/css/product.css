@@ -1,0 +1,400 @@
+.showAddProduct .formAdd {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formAdd form {
+    width: 100%;
+}
+
+.adds {
+    width: 80%;
+    height: 80%;
+    position: fixed;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    z-index: 5;
+    text-align: center;
+}
+
+.adds h3 {
+    color: #333;
+    text-align: center;
+    margin: 15px
+}
+
+
+.formAdd .formAddProduct {
+    width: 70%;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.formAddProduct input,
+.formAddProduct textarea {
+    width: 100%;
+    border: 1px solid rgb(41, 103, 202);
+    padding: 7px;
+    border-radius: 9px;
+    outline: none
+}
+
+
+.btnAdd {
+    padding: 6px 50px;
+    border: 0px;
+    border-radius: 9px;
+    background-color: rgb(46, 170, 223)
+}
+
+.results {
+    width: 210px;
+    margin: 0 20px;
+    box-shadow: 0 0 1px rgb(0 0 0);
+}
+
+.more {
+    display: none;
+}
+
+.more2 {
+    display: flex;
+    max-width: 207px;
+    position: absolute;
+    padding: 5px;
+    background-color: #40dede;
+    z-index: 10;
+    right: 2px;
+    justify-content: center;
+    top: -46px;
+    height: 50px;
+    overflow-x: overlay;
+}
+
+.padding {
+    position: relative;
+    padding-top: 50px;
+}
+
+
+.more2 img {
+    width: 50px;
+    margin: 3px 10px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.moreIcon {
+    display: flex;
+    align-items: baseline;
+    color: rgb(217 35 255);
+    position: absolute;
+    top: 24px;
+    right: 21px;
+    cursor: pointer;
+    height: 25px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    text-decoration: line-through;
+
+    margin-left: 10px;
+    font-size: 12px;
+    color: #757070 !important;
+}
+
+
+
+.price p,
+.price sup {
+    margin: 0;
+    color: #757070 !important;
+}
+
+.currentPrice {
+    display: flex;
+    align-items: center;
+    font-family: "Itim", sans-serif;
+    position: relative
+}
+
+.currentPrice p {
+    margin: 0;
+}
+
+.PP {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 23px;
+    padding: 1px 3px;
+    left: 20px;
+    box-shadow: 0 0 2px;
+    justify-content: space-evenly;
+}
+
+.dolarCurrent {
+    color: #757070;
+}
+
+.introducts {
+    text-align: start;
+    width: 345px;
+    padding: 20px;
+    right: 0;
+}
+
+.description,
+.components {
+    margin: 7px 0;
+    padding: 10px;
+    box-shadow: 0 0 5px rgb(200 200 200);
+
+}
+
+.quantityBuy {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0
+}
+
+.btn-minus,
+.btn-add {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 0 1px;
+    cursor: pointer;
+    margin: 0 20px
+}
+
+.btn-minusQuan,
+.btn-addQuan {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    margin: 0 24px;
+}
+
+:is(.btn-minusQuan, .btn-addQuan):hover {
+    background-color: rgb(255 254 254);
+}
+
+.sumCurrentPrice {
+    display: flex;
+    align-items: baseline;
+}
+
+.sumCurrentPrice span {
+    font-weight: bold;
+
+}
+
+.sumCurrentPrice sup {
+    margin-left: 30px;
+
+}
+
+.sumCurrentPrice .sumPrice {
+    font-weight: 400;
+    font-size: 15px;
+    font-family: "Itim", sans-serif;
+}
+
+.helloCartss {
+    display: none
+}
+
+.resultCartsss {
+    display: block;
+    width: 700px;
+
+    z-index: 2;
+    left: -512px;
+    top: 55px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px;
+    padding: 10px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+}
+
+.resultCarts {
+    width: 100%;
+    height: 500px;
+
+
+    overflow-x: overlay;
+
+}
+
+.resultCart {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(218 216 220);
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.resultCart .btnCheckout {
+    width: 21px;
+    height: 21px;
+    margin-right: 16px;
+    z-index: 10;
+}
+
+.resultCart .imageCart {
+    width: 65px;
+}
+
+.imageCart img {
+    border-radius: 5px;
+}
+
+.resultCart .nameCart {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 9px;
+    font-family: "Itim", sans-serif;
+
+}
+
+.nameCart p {
+    width: 100%;
+    margin: 0
+}
+
+.resultCarts .deleteCart {
+    width: 40px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.5s linear;
+    z-index: 5;
+}
+
+.deleteCart:hover {
+    background-color: rgb(154 151 151);
+}
+
+.resultCart .quantityCart {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -22px;
+    z-index: 5;
+    width: 100%;
+    height: 20px;
+    background: #c8c8c8;
+    left: 0;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.backgroundI {
+    position: absolute;
+    left: 0;
+    background-image: linear-gradient(0deg, #ffffff, #ffffff00);
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+}
+
+.quantityCart .backgroundI {
+    bottom: -9px;
+    position: absolute;
+    left: 0;
+    background-image: linear-gradient(0deg, #ffffff, #ffffff00);
+    width: 50px;
+    height: 99%;
+    /* top: 0; */
+    /* z-index: 55; */
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.PPdetail {
+    margin: 20px 0;
+}
+
+.PPdetail sup {
+    color: #333 !important;
+}
+
+.showDetails .sumCurrentPrice sup {
+    color: #333 !important;
+}
+
+.resultsCheckout {
+    display: none;
+}
+
+.showProductCheckout {
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 10px 5px 30px;
+    overflow-x: overlay;
+}
+
+.resultsCheckoutShow {
+    display: block;
+    width: 900px;
+    height: 700px;
+    position: fixed;
+    background-color: #72787a;
+    z-index: 15;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    overflow-x: overlay;
+}
+
+
+
+.informationUser {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px 0
+}
+
+.total {
+    width: 200px;
+    height: 100px;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

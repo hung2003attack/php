@@ -1,0 +1,162 @@
+
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: #111;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+ footer .container{
+     margin-right: px;
+ }
+footer  .container .aboutUs{
+     width:40%;
+ }
+ footer .container .aboutUs h2{
+     position: relative;
+     color: #fff;
+     font-weight: 500;
+     margin-bottom: 15px;
+ }
+ footer .container .aboutUs h2:before{
+     content: '';
+     position: absolute;
+     bottom: -5px;
+     left: 1;
+     width: 50px;
+     height: 2px;
+     background: #f00;
+ }
+footer .container .aboutUs p{
+     color: #999;
+ }
+ .social-icon{
+     margin-top: 20px;
+     display: flex;
+ }
+.social-icon li {
+     list-style: none;
+ }
+ .social-icon li a{
+     display: inline-block;
+     width: 40px;
+     height: 40px;
+     background: #222;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-right: 30px;
+     text-decoration: none;
+     border-radius: 4px;
+ }
+.social-icon li a:hover{
+     background: #f00;
+ }
+.social-icon li a .fa{
+     color: #fff;
+     font-size: 20px;
+ }
+.linksAbout h2{
+     position: relative;
+     color: #fff;
+     font-weight: 500;
+     margin-bottom: 15px;
+ }
+ .linksAbou a{
+    color: #fff !important
+ }
+ .linksAbout h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+.linksAbout{
+   position: relative;
+   width: 25%;
+}
+.linksAbout ul li{
+    list-style: none;
+}
+.linksAbout ul li a{
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.linksAbout ul li a:hover{
+    color: #fff;
+}
+.contactAbout h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.contactAbout h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+.contactAbout{
+    width: calc(35% - 60px);
+    margin-right: 0 !important;
+    color: #fff !important; 
+}
+.contactAbout .infoAbout{
+    position: relative;
+}
+.contactAbout .infoAbout li{
+    display: flex;
+    margin-bottom: 16px;
+}
+.contactAbout .infoAbout li span:nth-child(1) {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.contactAbout .infoAbout li span{
+    color: #999;
+}
+.contactAbout .infoAbout li a{
+    color: #999;
+    text-decoration: none;
+}
+
+@media  (max-width: 768px){
+    footer{
+        padding: 40px;
+             }
+    footer .container{
+        flex-direction: column;
+    }
+    footer .container {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    footer .container, .aboutUs, .linksAbout, .contactAbout{
+        width: 100%;
+    }
+}
+img {
+    height: 50%;
+    width: 20%;
+    
+}

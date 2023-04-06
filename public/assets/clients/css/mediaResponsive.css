@@ -1,0 +1,27 @@
+@media (min-width: 375px) {
+    .menuDetails {
+        display: flex !important;
+    }
+
+    .menu {
+        display: none !important;
+    }
+
+    .MenuRes {
+        display: flex !important;
+    }
+}
+
+@media (min-width: 1280px) {
+    .menuDetails {
+        display: none !important;
+    }
+
+    .menu {
+        display: flex !important;
+    }
+
+    .MenuRes {
+        display: none !important;
+    }
+}
